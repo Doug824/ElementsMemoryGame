@@ -154,7 +154,7 @@ function congrats() {
     finalTime = timerElement.innerHTML;
     modal.classList.add("show");
     var starRating = document.querySelector(".stars").innerHTML;
-    document.getElementById("lastMove").innerHTML = moves / 2;
+    document.getElementById("lastMove").innerHTML = moves;
     document.getElementById("starRating").innerHTML = starRating;
     document.getElementById("finalTime").innerHTML = finalTime;
     closeModal();
